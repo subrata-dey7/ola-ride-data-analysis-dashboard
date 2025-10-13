@@ -182,7 +182,7 @@ The analysis of July 2024 OLA bookings reveals strong revenue generation (35M) b
 
 ### 10. License
 
-This project is open source and free to use for educational purposes.
+This project is open source and free to use for educational, analytical, and strategic insight purposes.
 
 
 🎉🎉 Thank you for checking out the - “OLA Ride Data Analysis” project !!!
