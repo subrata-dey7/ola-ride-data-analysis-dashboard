@@ -1,0 +1,24 @@
+
+// DAX Code:
+
+// % of Cancelled Bookings = (Total Cancelled Bookings) * 100 / Total Bookings
+
+
+// A) Cancelled Bookings
+
+CanceledBookings =
+CALCULATE(
+COUNTROWS(July),
+July[Booking_Status] IN {"Canceled by Driver", "Canceled by Customer"}
+)
+
+
+// B) Total Bookings
+
+TotalBookings = COUNTROWS(July)
+
+
+// C) Cancelled Percentage
+
+CanceledPercentage =
+DIVIDE([CanceledBookings],[TotalBookings], 0)
